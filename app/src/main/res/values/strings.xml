@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="greet">Welcome!</string>
     <string name="messi">Happy Birthday Messi</string>
     <string name="app_name1">VIT Batch 1</string>
     <string name="hint_entername">Enter your name</string>
     <string name="hint_enterpin">Enter pin</string>
     <string name="login_label">Login</string>
+    <string name="intent_intro">Here are the three actions you can perform right now!</string>
+    <string name="dial">Dial a Number</string>
+    <string name="alarm">Set an alarm</string>
+    <string name="timer">Set a timer</string>
+    <string name="alarm_title">Alarm</string>
+    <string name="timer_title">Timer</string>
 </resources>
