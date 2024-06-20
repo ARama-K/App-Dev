@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="messi">Happy Birthday Messi</string>
+    <string name="app_name1">வணக்கம்</string>
+    <string name="hint_entername">உங்கள் பெயரை உள்ளிடவும்</string>
+    <string name="hint_enterpin">பின்னை உள்ளிடவும்</string>
+    <string name="login_label">உள்நுழை</string>
+</resources>

@@ -2,23 +2,53 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A4B0BF"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="0dp"
-        android:layout_height="258dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="143dp"
-        android:layout_marginEnd="36dp"
-        android:fontFamily="monospace"
-        android:text="@string/messi"
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="239dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="@string/hint_entername"
+        android:inputType="text"
         android:textColor="@color/messi"
-        android:textSize="60sp"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <!-- this color is defined in my apps colors.xml
+    android:textColor="@color/mycolor"
+-->
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="216dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="27dp"
+        android:ems="10"
+        android:hint="@string/hint_enterpin"
+        android:inputType="numberPassword"
+        app:layout_constraintStart_toStartOf="@+id/editTextText"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+    <!--these colors are defined in android os
+    android:textColor="@android:color/holo_blue_light"-->
+    <!--
+ dp = density independent pixels
+-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:onClick="clickHandler"
+        android:text="@string/login_label"
+        android:textColor="@android:color/holo_blue_light"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+
+    <!--
+        sp = scale independent pixels
+    -->
 </androidx.constraintlayout.widget.ConstraintLayout>

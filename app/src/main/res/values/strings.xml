@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="messi">Happy Birthday Messi</string>
+    <string name="app_name1">VIT Batch 1</string>
+    <string name="hint_entername">Enter your name</string>
+    <string name="hint_enterpin">Enter pin</string>
+    <string name="login_label">Login</string>
 </resources>
