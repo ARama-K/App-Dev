@@ -2,15 +2,12 @@ package com.example.myapplication.kotlinex;
 
 public class Employee {
     String name;
-    int age;
-    String postalAddress;
-
-    public Employee(String name, int age, String postalAddress) {
-        Student vitStudent = new Student("Joe",20,"VIT");
-        System.out.println("Employee is getting created "+vitStudent.getName());
-        this.name = name;
-        this.age = age;
-        this.postalAddress = postalAddress;
+    int image;
+    String mail;
+    public Employee(String name, String mail,int image){
+        this.name=name;
+        this.image=image;
+        this.mail=mail;
     }
 
     public String getName() {
@@ -22,18 +19,18 @@ public class Employee {
     }
 
     public int getAge() {
-        return age;
+        return image;
     }
 
     public void setAge(int age) {
-        this.age = age;
+        this.image = age;
     }
 
     public String getPostalAddress() {
-        return postalAddress;
+        return mail;
     }
 
     public void setPostalAddress(String postalAddress) {
-        this.postalAddress = postalAddress;
+        this.mail = postalAddress;
     }
 }
